@@ -1,0 +1,26 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+ <ResponsivePopover id="actionPopover">
+
+        <content>
+            <List id="_IDGenList1">
+                <StandardListItem id="_IDGenStandardListItem"
+                    title="View"
+                    type="Active"
+                    press="onViewPress"/>
+
+                <StandardListItem id="_IDGenStandardListItem1"
+                    title="Delete"
+                    type="Active"
+                    press="onDeletePress"/>
+
+                <StandardListItem id="_IDGenStandardListItem2"
+                    title="Edit"
+                    type="Active"
+                    press="onEditPress"
+                
+                 />
+            </List>
+        </content>
+
+    </ResponsivePopover>
+    </core:FragmentDefinition>
